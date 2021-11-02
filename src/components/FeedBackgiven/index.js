@@ -3,11 +3,11 @@ import './index.css'
 const FeedBackgiven = props => {
   const {loveEmojiUrl} = props
   return (
-    <div>
+    <div className="feedbackContainer">
       <img src={loveEmojiUrl} alt="love emoji" className="loveEmoji" />
-      <h1>Thank You</h1>
-      <p>
-        we will use nyour feed back to improve our customer support performance
+      <h1 className="wish">Thank You !</h1>
+      <p className="feedBackInfo">
+        We will use your feed back to improve our customer support performance
       </p>
     </div>
   )

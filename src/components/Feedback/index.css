@@ -1,7 +1,9 @@
 .cardContainer {
   background-color: #ffff;
-  border-color: blue;
-  border-style: solid;
+
+  border-style: none;
+  border-radius: 10px;
+  padding: 10px;
 }
 .mainContainer {
   height: 100vh;
@@ -10,15 +12,21 @@
   flex-direction: column;
   align-items: center;
   border-color: green;
-  border-style: solid;
+  border-style: none;
   margin: 50px;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb, #ffebeb);
+  border-radius: 20px;
 }
 .emojiContainer {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
+  font-family: 'Times New roman';
+  font-weight: 900;
 }
 .textCenter {
   text-align: center;
+  font-family: 'Beer Serif';
 }
